@@ -17,19 +17,7 @@ class AdminSeeder extends Seeder{
      public function run()
      {
 
-        $user = User::create([
-            'name' => "SuperAdmin",
-            'cedula' => "1097092580", 
-            'email' => "betsy.tboada@mxm.com.co",
-            'password' => Hash::make('123456'),
-            'rol_id' => 4,
-            'p_venta' => "ADMINISTRACION",
-            'cargo'=> "ANALISTA DE PROCESOS",
-
-            'is_active' => true,
-
-        ]);
-        
+     
 
         $user = User::create([
             'name' => "Administrador1",
